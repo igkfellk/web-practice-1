@@ -42,6 +42,8 @@ li {
     padding: 10px;
     border-radius: 10px; /* Закругление углов элементов списка */
     text-align: center;
+    width: 200px;
+    place-self: center;
 }
 
 /* Стили для ссылок */
@@ -58,6 +60,6 @@ a:hover {
 /* Горизонтальные линии */
 hr {
     margin: 20px auto;
-    width: 80%; /* Ширина линии */
+    width: 30%; /* Ширина линии */
     border: 1px solid #ccc; /* Цвет линии */
 }
