@@ -1,14 +1,63 @@
+        /* Общие стили */
 body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
-        a {
-            text-decoration: none;
-            color: #3498db;
-            font-size: 20px;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Центрируем заголовки на странице */
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Стили для изображения */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px; /* Закругление углов изображения */
+}
+
+/* Стили для абзацев */
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Стили для списков */
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+li {
+    background: #3498db;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px; /* Закругление углов элементов списка */
+    text-align: center;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Горизонтальные линии */
+hr {
+    margin: 20px auto;
+    width: 80%; /* Ширина линии */
+    border: 1px solid #ccc; /* Цвет линии */
+}
